@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    font-weight: bold;
+    margin: 3%;
+    background-image: url(https://media0.giphy.com/media/l04LqI4vxMb0Fj6lTd/giphy.gif?cid=790b761143e779d16aba7951445c9032653c438df4651167&rid=giphy.gif&ct=g);
+    border-radius: 100px;
+    border-style: double;
+    border-width: 6px;
+    
+}
+
+.navbar__item {
+    flex-basis: 20%;
+    list-style-type: none;
+}
+
+.navbar__logout {
+    margin-left: auto;
+}
+
+
+.navbar__item.active{
+    margin: 1%;
+}
+.navbar__item.navbar__logout{
+    margin-top: 1%;
+}
+

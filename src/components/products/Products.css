@@ -1,0 +1,79 @@
+.products {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.product {
+    background-image: url(https://en.pimg.jp/060/118/258/1/60118258.jpg);
+    background-color: rgb(228, 199, 255);
+    border: 1px dotted darkmagenta;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+
+    font-weight: bolder;
+
+
+}
+
+.productType {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    text-decoration: overline;
+
+}
+
+.selectType {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    border: 1px solid;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: rgba(247, 208, 214, 0.767);
+    margin-top: 5px;
+    border-radius: 1rem;
+}
+
+label {
+    font-size: 25px;
+}
+
+.productForm {
+
+
+    
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/990/182/non_2x/purple-and-pink-seamless-pattern-with-lollipop-and-candy-sketches-repetitive-party-background-with-delicious-sweets-vector.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+    border-radius: 3rem;
+    font-weight: bold;
+    padding: 1em;
+
+
+}
+.proFormField{
+    margin-left:  5%;
+    margin-right: 5%;
+    border: 1px solid;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+    background-color: rgba(247, 208, 214, 0.767);
+    border-radius: 1rem;
+
+}
+.form-control{
+    margin-left: 2%;
+}
+
+.btn{
+    margin-top: 20px;
+}

@@ -1,0 +1,30 @@
+.locations{
+    display: flex;
+    flex-direction: column;
+   margin-left: 30%;
+   margin-right: 30%;
+   background-image: url(https://c.tenor.com/wIa91mot0tAAAAAd/pixel-city-chill.gif);
+   background-size: cover;
+   border-radius: .75rem;
+   background-repeat: no-repeat;
+   padding: 3%;
+   
+}
+.location{
+    
+    background: rgb(211,152,186);
+background: radial-gradient(circle, rgba(211,152,186,1) 0%, rgba(238,160,167,1) 50%, rgba(254,184,165,1) 100%);
+    border: 1px dotted darkmagenta ;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+    
+    
+	border: 1px solid black;
+	padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+    text-decoration: underline;
+    font-weight: bold;
+
+    
+}
