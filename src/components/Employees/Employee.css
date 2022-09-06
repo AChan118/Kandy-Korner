@@ -1,0 +1,25 @@
+.employees{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.employee{
+   background: rgb(216,219,242);
+  background: linear-gradient(183deg, rgba(216,219,242,1) 0%, rgba(239,204,226,1) 31%, rgba(254,184,165,1) 100%);
+  border: 2px solid rgb(167, 207, 234);
+  box-shadow: 1px 2px 3px 1px rgb(102, 102, 102);
+  color: black;
+  padding: .5rem;
+  margin: .5rem
+}
+
+.employee__footer{
+    margin: 1rem 0 0.25rem 0;
+    font-style: oblique;
+}
+.employee__header{
+    font-size: larger;
+    font-weight: 700;
+    line-height: 3rem;
+}
